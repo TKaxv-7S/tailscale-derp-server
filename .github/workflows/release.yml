@@ -15,7 +15,7 @@ jobs:
         with:
           repository: tailscale/tailscale
           ref: main
-          fetch-depth: 0
+          fetch-depth: 1
           path: tailscale
 
       - name: modify
